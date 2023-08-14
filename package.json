@@ -1,0 +1,19 @@
+{
+  "name": "lodash-project",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mocha": "mocha -r esm test/*.test.js",
+    "test": "npm run mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "esm": "^3.2.25",
+    "lodash": "^4.17.21",
+    "mocha": "^10.2.0"
+  }
+}
